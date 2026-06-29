@@ -1,0 +1,51 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+
+# Output
+*.bin
+*.iq
+
+# Temporary files
+*.swp
+
+# Netbeans project folder
+nbproject/*
+
+# Debug trace file
+*.trace
+
+# Matlab program
+matlab/
+
+# PDF files in doc/
+doc/*.pdf

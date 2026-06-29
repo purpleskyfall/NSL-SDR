@@ -1,0 +1,20 @@
+# Configure demo for Siren software, in TOML language
+
+version = '0.1.0'
+
+[signal]
+satsys = 'C'                   # GNSS system [G:GPS, R:GLO, E:GAL, C:BDS]
+exclsats = []                  # exclude satellites ['G01', 'C02', ...]
+band = 'B1I'                   # GNSS frequency band [L1CA, B1I, B3I]
+sample = 5.2e+6                # sampling frequency (Hz)
+elvmask = 0                    # mask of elevation angle (degree)
+snrmask = 0                    # mask of signal SNR (dBHz)
+pathloss = true                # enable path loss
+
+[errors]
+ionospheric = 'brdc'           # ionospheric delay model [off, brdc]
+tropospheric = 'off'           # tropospheric delay model [off, saas]
+
+[output]
+bits = 8                       # I/Q data format [1/8/16]
+verbose = false                # verbose mode enable
